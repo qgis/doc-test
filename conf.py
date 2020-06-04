@@ -143,7 +143,7 @@ if html_context['isTesting'] or html_context['outdated']:
 
 supported_languages = cfg['supported_languages'].replace(' ','').split(',')
 version_list = cfg['version_list'].replace(' ','').split(',')
-docs_url = 'https://docs.qgis.org/'
+docs_url = 'http://doc-test.qgis.org/'
 
 if version not in version_list:
   raise ValueError('QGIS version is not in version list', version, version_list)
@@ -177,10 +177,10 @@ context = {
 
     'display_github': not html_context['outdated'], # Do not display for outdated releases
     'github_user': 'qgis',
-    'github_repo': 'QGIS-Documentation',
+    'github_repo': 'doc-test',
     'github_version': 'master/',
-    'github_url':'https://github.com/qgis/QGIS-Documentation/edit/master',
-    'transifex_url': 'https://www.transifex.com/qgis/qgis-documentation/translate',
+    'github_url':'https://github.com/qgis/doc-test/edit/master',
+    'transifex_url': 'https://www.transifex.com/qgis/doc-test/translate',
 
     'pyqgis_version': pyqgis_version,
     'source_version': source_version,
