@@ -4,7 +4,7 @@
 # You can set these variables from the command line.
 LANG            = en
 # currently we are building for the following languages, if you want yours to be build: ask!
-LANGUAGES       = en bg cs de es fi fr id it ja ko nl pt_BR pt_PT ro ru tr zh_Hant zh_Hans
+LANGUAGES       = en fr nl
 # for transifex we need other codes for the chinese languages
 # a symbolic link is needed to be able to build them
 #LANGUAGES       = en bg cs de es fi fr id it ja ko nl pt_BR pt_PT ro ru tr zh-Hant zh-Hans
@@ -15,7 +15,7 @@ SPHINXINTL      ?= sphinx-intl
 SOURCEDIR       = .
 BUILDDIR        = build
 #SITEDIR         = /var/www/html/qgisdocs
-SITEDIR         = qgis2:/var/www/qgisdata/QGIS-Documentation-3.10/live/html
+SITEDIR         = qgis2:/var/www/qgisdata/doc-test/live/html
 
 
 

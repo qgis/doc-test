@@ -15,5 +15,4 @@ algorithms.
      :maxdepth: 2
 
      cartography
-     database
      filetools
