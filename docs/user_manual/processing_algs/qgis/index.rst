@@ -17,18 +17,3 @@ algorithms.
      cartography
      database
      filetools
-     graphics
-     interpolation
-     layertools
-     modelertools
-     networkanalysis
-     rasteranalysis
-     rasterterrainanalysis
-     rastertools
-     vectoranalysis
-     vectorcreation
-     vectorgeneral
-     vectorgeometry
-     vectoroverlay
-     vectorselection
-     vectortable

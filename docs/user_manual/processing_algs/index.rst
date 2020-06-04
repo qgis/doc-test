@@ -15,6 +15,3 @@ are documented here.
      :maxdepth: 2
 
      qgis/index
-     gdal/index
-     lidartools/lastools
-     taudem/index
