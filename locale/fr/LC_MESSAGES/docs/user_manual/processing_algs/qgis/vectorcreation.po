@@ -1,0 +1,1876 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2002-now, QGIS project
+# This file is distributed under the same license as the QGIS Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Richard Duivenvoorde <richard@duif.net>, 2020
+# Francis Gasc <francisgasc@gmail.com>, 2020
+# MarieSilvestre, 2020
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: QGIS Documentation 3.10\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-05-10 11:07+0200\n"
+"PO-Revision-Date: 2020-03-16 19:30+0000\n"
+"Last-Translator: MarieSilvestre, 2020\n"
+"Language-Team: French (https://www.transifex.com/qgis/teams/6144/fr/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:2
+msgid "Vector creation"
+msgstr "Création de vecteurs"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:14
+msgid "Array of offset (parallel) lines"
+msgstr "Tableau de lignes décalées (parallèles)"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:15
+msgid ""
+"Creates copies of line features in a layer, by creating multiple offset "
+"versions of each feature. Each new version is incrementally offset by a "
+"specified distance."
+msgstr ""
+"Crée des copies des entités linéaires dans une couche, en créant plusieurs "
+"versions décalées de chaque entité. Chaque nouvelle version est décalée de "
+"manière incrémentielle d'une distance spécifiée."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:18
+msgid ""
+"Positive distance will offset lines to the left, and negative distances will"
+" offset them to the right."
+msgstr ""
+"Une distance positive décalera les lignes vers la gauche et les distances "
+"négatives les décaleront vers la droite."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:24
+msgid "In blue the source layer, in red the offset one"
+msgstr "En bleu la couche source, en rouge celui décalé"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:26
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:135
+msgid ""
+"|checkbox| Allows :ref:`features in-place modification "
+"<processing_inplace_edit>`"
+msgstr ""
+"|checkbox| Permet :ref:`la modification de la couche "
+"source<processing_inplace_edit>`"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:28
+msgid ":ref:`qgisoffsetline`, :ref:`qgisarraytranslatedfeatures`"
+msgstr ":ref:`qgisoffsetline`, :ref:`qgisarraytranslatedfeatures`"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:31
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:141
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:245
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:346
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:436
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:502
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:568
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:664
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:762
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:833
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:911
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:987
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1068
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1137
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1214
+msgid "Parameters"
+msgstr "Paramètres"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:38
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:107
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:148
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:210
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:252
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:325
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:353
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:411
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:443
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:477
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:509
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:543
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:575
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:629
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:671
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:736
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:769
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:811
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:840
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:888
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:918
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:960
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:994
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1047
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1075
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1116
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1144
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1185
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1221
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1283
+msgid "Label"
+msgstr "Étiquette"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:39
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:108
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:149
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:211
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:253
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:326
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:354
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:412
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:444
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:478
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:510
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:544
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:576
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:630
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:672
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:737
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:770
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:812
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:841
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:889
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:919
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:961
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:995
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1048
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1076
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1117
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1145
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1186
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1222
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1284
+msgid "Name"
+msgstr "Nom"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:40
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:109
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:150
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:212
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:254
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:327
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:355
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:413
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:445
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:479
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:511
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:545
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:577
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:631
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:673
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:738
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:771
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:813
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:842
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:890
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:920
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:962
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:996
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1049
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1077
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1118
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1146
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1187
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1223
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1285
+msgid "Type"
+msgstr "Type"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:41
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:110
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:151
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:213
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:255
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:328
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:356
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:414
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:446
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:480
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:512
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:546
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:578
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:632
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:674
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:739
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:772
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:814
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:843
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:891
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:921
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:963
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:997
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1050
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1078
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1119
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1147
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1188
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1224
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1286
+msgid "Description"
+msgstr "Description"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:42
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:152
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:357
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:922
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:998
+msgid "**Input layer**"
+msgstr "**Couche en entrée**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:43
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:153
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:358
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:676
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:774
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:923
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:999
+msgid "``INPUT``"
+msgstr "``INPUT``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:44
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:87
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:113
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:453
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:702
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:742
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:775
+msgid "[vector: line]"
+msgstr "[vector: line]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:45
+msgid "Input line vector layer to use for the offsets."
+msgstr "Couche vecteur ligne d'entrée à utiliser pour les décalages."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:46
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:156
+msgid "**Number of features to create**"
+msgstr "**Nombre d'entités à créer**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:47
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:157
+msgid "``COUNT``"
+msgstr "``COUNT``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:48
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:54
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:158
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:164
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:170
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:176
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:182
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1014
+msgid "[number |dataDefined|]"
+msgstr "[number |dataDefined|]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:50
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:160
+msgid "Default: 10"
+msgstr "Par défaut : 10"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:51
+msgid "Number of offset copies to generate for each feature"
+msgstr "Nombre de copies offset à générer pour chaque entité"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:52
+msgid "**Offset step distance**"
+msgstr "**Distance de pas de décalage**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:53
+msgid "``OFFSET``"
+msgstr "``OFFSET``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:56
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:277
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:283
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1016
+msgid "Default: 1.0"
+msgstr "Par défaut : 1.0"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:57
+msgid "Distance between two consecutive offset copies"
+msgstr "Distance entre deux copies offset consécutives"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:58
+msgid "**Segments**"
+msgstr "**Segments**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:59
+msgid "``SEGMENTS``"
+msgstr "``SEGMENTS``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:60
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:79
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:275
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:281
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:287
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:293
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:779
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:785
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:850
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:856
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:928
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:934
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1021
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1231
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1238
+msgid "[number]"
+msgstr "[number]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:62
+msgid "Default: 8"
+msgstr "Par défaut : 8"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:63
+msgid ""
+"Number of line segments to use to approximate a quarter circle when creating"
+" rounded offsets"
+msgstr ""
+"Nombre de segments de ligne à utiliser pour approximer un quart de cercle "
+"lors de la création de décalages arrondis"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:65
+msgid "**Join style**"
+msgstr "**Style de jointure**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:66
+msgid "``JOIN_STYLE``"
+msgstr "``JOIN_STYLE``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:67
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:258
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1004
+msgid "[enumeration]"
+msgstr "[enumeration]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:69
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:260
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1006
+msgid "Default: 0"
+msgstr "Par défaut : 0"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:70
+msgid ""
+"Specify whether round, miter or beveled joins should be used when offsetting"
+" corners in a line. One of:"
+msgstr ""
+"Spécifiez si les jointures arrondies, à onglet ou biseautées doivent être "
+"utilisées lors du décalage des coins d'une ligne. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:73
+msgid "0 --- Round"
+msgstr "0 --- Rond"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:74
+msgid "1 --- Miter"
+msgstr "1 --- Angle droit"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:75
+msgid "2 --- Bevel"
+msgstr "2 --- Oblique"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:77
+msgid "**Miter limit**"
+msgstr "**Limite d'onglet**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:78
+msgid "``MITER_LIMIT``"
+msgstr "``MITER_LIMIT``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:81
+msgid "Default: 2.0"
+msgstr "Par défaut : 2.0"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:82
+msgid ""
+"Only applicable for mitered join styles, and controls the maximum distance "
+"from the offset curve to use when creating a mitered join."
+msgstr ""
+"S'applique uniquement aux styles de jointure à onglets et contrôle la "
+"distance maximale à partir de la courbe de décalage à utiliser lors de la "
+"création d'une jointure à onglets."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:85
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:111
+msgid "**Offset lines**"
+msgstr "**Lignes décalées**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:86
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:112
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:187
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:215
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:304
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:330
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:390
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:416
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:456
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:482
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:522
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:548
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:590
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:634
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:701
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:741
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:745
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:790
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:816
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:867
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:893
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:939
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:965
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1026
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1052
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1094
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1121
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1163
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1190
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1262
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1288
+msgid "``OUTPUT``"
+msgstr "``OUTPUT``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:89
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:190
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:307
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:393
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:459
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:525
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:593
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:704
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:793
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:870
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:942
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1029
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1097
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1166
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1265
+msgid "Default: ``[Create temporary layer]``"
+msgstr "Par défaut: ``[Create temporary layer]``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:90
+msgid "Specify the output line layer with offset features. One of:"
+msgstr ""
+"Spécifiez la couche de ligne de sortie avec des fonctions de décalage. Un "
+"des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:92
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:195
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:310
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:396
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:462
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:528
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:597
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:614
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:707
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:796
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:873
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:945
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1032
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1101
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1170
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1268
+msgid "Create Temporary Layer (``TEMPORARY_OUTPUT``)"
+msgstr "Create Temporary Layer (``TEMPORARY_OUTPUT``)"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:93
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:196
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:311
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:397
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:463
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:529
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:598
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:615
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:708
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:797
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:874
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:946
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1033
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1102
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1171
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1269
+msgid "Save to File..."
+msgstr "Enregistrer dans un fichier…"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:94
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:197
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:312
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:398
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:464
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:530
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:599
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:616
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:709
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:798
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:875
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:947
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1034
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1103
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1172
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1270
+msgid "Save to Geopackage..."
+msgstr "Enregistrer dans un GeoPackage…"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:95
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:198
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:313
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:399
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:465
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:531
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:600
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:617
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:710
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:799
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:876
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:948
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1035
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1104
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1173
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1271
+msgid "Save to PostGIS Table..."
+msgstr "Enregistrer dans la table PostGIS ..."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:97
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:200
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:315
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:401
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:467
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:533
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:602
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:619
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:712
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:725
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:801
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:878
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:950
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1037
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1106
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1175
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1273
+msgid "The file encoding can also be changed here."
+msgstr "L'encodage du fichier peut également être modifié ici."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:100
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:203
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:318
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:404
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:470
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:536
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:622
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:729
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:804
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:881
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:953
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1040
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1109
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1178
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1276
+msgid "Outputs"
+msgstr "Sorties"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:114
+msgid ""
+"Output line layer with offset features. The original features are also "
+"copied."
+msgstr ""
+"Couche de ligne de sortie avec des fonctions de décalage. Les entités "
+"d'origine sont également copiées."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:121
+msgid "Array of translated features"
+msgstr "Tableau d'entités traduites"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:122
+msgid ""
+"Creates copies of features in a layer by creating multiple translated "
+"versions of each. Each copy is incrementally displaced by a preset amount in"
+" the X, Y and/or Z axis."
+msgstr ""
+"Crée des copies d'entités dans une couche en créant plusieurs versions "
+"traduites de chacune. Chaque copie est déplacée de manière incrémentielle "
+"d'une quantité prédéfinie sur les axes X, Y et/ou Z."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:127
+msgid "M values present in the geometry can also be translated."
+msgstr ""
+"Les valeurs M présentes dans la géométrie peuvent également être traduites."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:132
+msgid ""
+"Input layers in blue tones, output layers with translated features in red "
+"tones"
+msgstr ""
+"Couches d'entrée dans les tons bleus, couches de sortie avec des entites "
+"traduites dans les tons rouges"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:138
+msgid ":ref:`qgistranslategeometry`, :ref:`qgisarrayoffsetlines`"
+msgstr ":ref:`qgistranslategeometry`, :ref:`qgisarrayoffsetlines`"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:154
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:305
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:331
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:359
+msgid "[vector: any]"
+msgstr "[vector: any]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:155
+msgid "Input vector layer to translate"
+msgstr "Couche vectorielle d'entrée à traduire"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:161
+msgid "Number of copies to generate for each feature"
+msgstr "Nombre de copies à générer pour chaque entite"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:162
+msgid "**Step distance (x-axis)**"
+msgstr "**Distance de pas (axe x)**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:163
+msgid "``DELTA_X``"
+msgstr "``DELTA_X``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:166
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:172
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:178
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:184
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:289
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:295
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:787
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:858
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:936
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1023
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1240
+msgid "Default: 0.0"
+msgstr "Par défaut : 0.0"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:167
+msgid "Displacement to apply on the X axis"
+msgstr "Déplacement à appliquer sur l'axe X"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:168
+msgid "**Step distance (y-axis)**"
+msgstr "**Distance de pas (axe y)**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:169
+msgid "``DELTA_Y``"
+msgstr "``DELTA_Y``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:173
+msgid "Displacement to apply on the Y axis"
+msgstr "Déplacement à appliquer sur l'axe Y"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:174
+msgid "**Step distance (z-axis)**"
+msgstr "**Distance de pas (axe z)**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:175
+msgid "``DELTA_Z``"
+msgstr "``DELTA_Z``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:179
+msgid "Displacement to apply on the Z axis"
+msgstr "Déplacement à appliquer sur l'axe Z"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:180
+msgid "**Step distance (m values)**"
+msgstr "**Distance de pas (valeurs m)**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:181
+msgid "``DELTA_M``"
+msgstr "``DELTA_M``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:185
+msgid "Displacement to apply on M"
+msgstr "Déplacement à appliquer sur M"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:186
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:214
+msgid "**Translated**"
+msgstr "**Traduit**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:188
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:216
+msgid "[same as input]"
+msgstr "[same as input]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:191
+msgid ""
+"Output vector layer with translated (moved) copies of the features. The "
+"original features are also copied. One of:"
+msgstr ""
+"Couche vectorielle de sortie avec des copies traduites (déplacées) des "
+"entités. Les entités d'origine sont également copiées. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:217
+msgid ""
+"Output vector layer with translated (moved) copies of the features. The "
+"original features are also copied."
+msgstr ""
+"Couche vectorielle de sortie avec des copies traduites (déplacées) des "
+"entités. Les entités d'origine sont également copiées."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:225
+msgid "Create grid"
+msgstr "Créer une grille"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:226
+msgid ""
+"Creates a vector layer with a grid covering a given extent. Grid cells can "
+"have different shapes:"
+msgstr ""
+"Crée une couche vectorielle avec une grille couvrant une étendue donnée. Les"
+" cellules de la grille peuvent avoir différentes formes:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:232
+msgid "Different grid cell shapes"
+msgstr "Différentes formes de cellules de grille"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:234
+msgid ""
+"The size of each element in the grid is defined using a horizontal and "
+"vertical spacing."
+msgstr ""
+"La taille de chaque élément de la grille est définie à l'aide d'un "
+"espacement horizontal et vertical."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:237
+msgid "The CRS of the output layer must be defined."
+msgstr "Le SCR de la couche de sortie doit être défini."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:239
+msgid ""
+"The grid extent and the spacing values must be expressed in the coordinates "
+"and units of this CRS."
+msgstr ""
+"L'étendue de la grille et les valeurs d'espacement doivent être exprimées "
+"dans les coordonnées et les unités de ce SCR."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:242
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:830
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:908
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:984
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1211
+msgid "``Default menu``: :menuselection:`Vector --> Research Tools`"
+msgstr "``Menu Default``: :menuselection:`Vector --> Research Tools`"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:256
+msgid "**Grid type**"
+msgstr "**Type de grille**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:257
+msgid "``TYPE``"
+msgstr "``TYPE``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:261
+msgid "Shape of the grid. One of:"
+msgstr "Forme de la grille. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:263
+msgid "0 --- Point"
+msgstr "0 --- Point"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:264
+msgid "1 --- Line"
+msgstr "1 --- Ligne"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:265
+msgid "2 --- Rectangle (polygon)"
+msgstr "2 --- Rectangle (polygone)"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:266
+msgid "3 --- Diamond (polygon)"
+msgstr "3 --- Diamant (polygone)"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:267
+msgid "4 --- Hexagon (polygon)"
+msgstr "4 --- Hexagone (polygone)"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:269
+msgid "**Grid extent**"
+msgstr "**Étendue de la grille**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:270
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:845
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1226
+msgid "``EXTENT``"
+msgstr "``EXTENT``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:271
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:846
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1227
+msgid "[extent]"
+msgstr "[emprise]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:272
+msgid "Extent of the grid"
+msgstr "Étendue de la grille"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:273
+msgid "**Horizontal spacing**"
+msgstr "**Espacement horizontal**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:274
+msgid "``HSPACING``"
+msgstr "``HSPACING``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:278
+msgid "Size of a grid cell on the X-axis"
+msgstr "Taille d'une cellule de grille sur l'axe X"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:279
+msgid "**Vertical spacing**"
+msgstr "**Espacement vertical**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:280
+msgid "``VSPACING``"
+msgstr "``VSPACING``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:284
+msgid "Size of a grid cell on the Y-axis"
+msgstr "Taille d'une cellule de grille sur l'axe Y"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:285
+msgid "**Horizontal overlay**"
+msgstr "**Superposition horizontale**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:286
+msgid "``HOVERLAY``"
+msgstr "``HOVERLAY``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:290
+msgid "Overlay distance between two consecutive grid cells on the X-axis"
+msgstr ""
+"Superposition de la distance entre deux cellules de grille consécutives sur "
+"l'axe X"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:291
+msgid "**Vertical overlay**"
+msgstr "**Superposition verticale**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:292
+msgid "``VOVERLAY``"
+msgstr "``VOVERLAY``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:296
+msgid "Overlay distance between two consecutive grid cells on the Y-axis"
+msgstr ""
+"Superposition de la distance entre deux cellules de grille consécutives sur "
+"l'axe Y"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:297
+msgid "**Grid CRS**"
+msgstr "**SCR grille**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:298
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1256
+msgid "``CRS``"
+msgstr "``CRS``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:299
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:383
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:862
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1257
+msgid "[crs]"
+msgstr "[crs]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:301
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:864
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1259
+msgid "Default: *Project CRS*"
+msgstr "Default: *Project CRS*"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:302
+msgid "Coordinate reference system to apply to the grid"
+msgstr "Système de référence de coordonnées à appliquer à la grille"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:303
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:329
+msgid "**Grid**"
+msgstr "**la grille**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:308
+msgid "Resulting vector grid layer. One of:"
+msgstr "Couche de grille vectorielle résultante. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:332
+msgid ""
+"Resulting vector grid layer. The output geometry type (point, line or "
+"polygon) depends on the :guilabel:`Grid type`."
+msgstr ""
+"Couche de grille vectorielle résultante. Le type de géométrie en sortie "
+"(point, ligne ou polygone) dépend du :guilabel:`type de grille`."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:339
+msgid "Create points layer from table"
+msgstr "Créer une couche de points à partir de la table"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:340
+msgid ""
+"Creates points layer from a table with columns that contain coordinates "
+"fields."
+msgstr ""
+"Crée une couche de points à partir d'une table avec des colonnes contenant "
+"des champs de coordonnées."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:343
+msgid "Besides X and Y coordinates you can also specify Z and M fields."
+msgstr ""
+"Outre les coordonnées X et Y, vous pouvez également spécifier des champs Z "
+"et M."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:360
+msgid "Input vector layer or a table."
+msgstr "Couche vectorielle ou table en entrée."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:361
+msgid "**X field**"
+msgstr "**Champ X**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:362
+msgid "``XFIELD``"
+msgstr "``XFIELD``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:363
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:367
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:373
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:379
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:681
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:687
+msgid "[tablefield: any]"
+msgstr "[tablefield: any]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:364
+msgid "Field containing the X coordinate"
+msgstr "Champ contenant la coordonnée X"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:365
+msgid "**Y field**"
+msgstr "**Champ Y**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:366
+msgid "``YFIELD``"
+msgstr "``YFIELD``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:368
+msgid "Field containing the Y coordinate"
+msgstr "Champ contenant la coordonnée Y"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:369
+msgid "**Z field**"
+msgstr "**Champ Z**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:371
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:377
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:605
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:641
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:685
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:694
+msgid "Optional"
+msgstr "Optionnel"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:372
+msgid "``ZFIELD``"
+msgstr "``ZFIELD``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:374
+msgid "Field containing the Z coordinate"
+msgstr "Champ contenant la coordonnée Z"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:375
+msgid "**M field**"
+msgstr "**Champ M**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:378
+msgid "``MFIELD``"
+msgstr "``MFIELD``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:380
+msgid "Field containing the M value"
+msgstr "Champ contenant la valeur M"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:381
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:860
+msgid "**Target CRS**"
+msgstr "**SCR cible**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:382
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:861
+msgid "``TARGET_CRS``"
+msgstr "``TARGET_CRS``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:385
+msgid "Default: ``EPSG:4326``"
+msgstr "Par défaut : ``EPSG:4326``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:386
+msgid ""
+"Coordinate reference system to use for layer. The provided coordinates are "
+"assumed to be compliant."
+msgstr ""
+"Système de référence de coordonnées à utiliser pour la couche. Les "
+"coordonnées fournies sont supposées conformes."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:389
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:415
+msgid "**Points from table**"
+msgstr "**Points de la table**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:391
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:417
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:457
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:483
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:523
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:549
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:591
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:635
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:677
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:791
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:817
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:868
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:894
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:940
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:966
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1027
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1053
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1095
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1122
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1263
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1289
+msgid "[vector: point]"
+msgstr "[vector: point]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:394
+msgid "Specify the resulting point layer. One of:"
+msgstr "Spécifiez la couche de points résultante. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:418
+msgid "The resulting point layer"
+msgstr "La couche de points résultante"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:424
+msgid "Generate points (pixel centroids) along line"
+msgstr "Générer des points (centroïdes de pixels) le long de la ligne"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:425
+msgid "Generates a point vector layer from an input raster and line layer."
+msgstr ""
+"Génère une couche vectorielle ponctuelle à partir d'une couche raster et "
+"linéaire en entrée."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:427
+msgid ""
+"The points correspond to the pixel centroids that intersect the line layer."
+msgstr ""
+"Les points correspondent aux centroïdes de pixels qui coupent la couche de "
+"ligne."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:433
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:499
+msgid "Points of the pixel centroids"
+msgstr "Points des centroïdes de pixels"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:447
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:513
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1079
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1148
+msgid "**Raster layer**"
+msgstr "**Couche raster**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:448
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:514
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1080
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1149
+msgid "``INPUT_RASTER``"
+msgstr "``INPUT_RASTER``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:449
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:515
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1081
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1150
+msgid "[raster]"
+msgstr "[raster]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:450
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:516
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1082
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1151
+msgid "Input raster layer"
+msgstr "Couche raster source"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:451
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:517
+msgid "**Vector layer**"
+msgstr "**Couche vectorielle**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:452
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:518
+msgid "``INPUT_VECTOR``"
+msgstr "``INPUT_VECTOR``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:454
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:776
+msgid "Input line vector layer"
+msgstr "Couche vectorielle de ligne en   entrée"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:455
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:481
+msgid "**Points along line**"
+msgstr "**Points le long de la ligne**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:460
+msgid "Resulting point layer with pixel centroids. One of:"
+msgstr "Couche de points résultante avec centroïdes de pixels. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:484
+msgid "Resulting point layer with pixel centroids"
+msgstr "Couche de points résultante avec centroïdes de pixels"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:490
+msgid "Generate points (pixel centroids) inside polygon"
+msgstr "Générer des points (centroïdes de pixels) à l'intérieur du polygone"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:491
+msgid "Generates a point vector layer from an input raster and polygon layer."
+msgstr ""
+"Génère une couche vectorielle ponctuelle à partir d'une couche raster et "
+"polygone en entrée."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:493
+msgid ""
+"The points correspond to the pixel centroids that intersect the polygon "
+"layer."
+msgstr ""
+"Les points correspondent aux centroïdes de pixels qui coupent la couche de "
+"polygones."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:519
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:924
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1000
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1164
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1191
+msgid "[vector: polygon]"
+msgstr "[vector: polygon]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:520
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1001
+msgid "Input polygon vector layer"
+msgstr "Couche de vecteur de polygone en entrée"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:521
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:547
+msgid "**Points inside polygons**"
+msgstr "**Points à l'intérieur des polygones**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:526
+msgid "Resulting point layer of pixel centroids. One of:"
+msgstr "Couche de points résultante de centroïdes de pixels. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:550
+msgid "Resulting point layer of pixel centroids"
+msgstr "Couche de points résultante de centroïdes de pixels"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:556
+msgid "Import geotagged photos"
+msgstr "Importer des photos géolocalisées"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:557
+msgid ""
+"Creates a point layer corresponding to the geotagged locations from JPEG "
+"images from a source folder."
+msgstr ""
+"Crée une couche de points correspondant aux emplacements géomarqués à partir"
+" d'images JPEG à partir d'un dossier source."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:560
+msgid ""
+"The point layer will contain a single PointZ feature per input file from "
+"which the geotags could be read. Any altitude information from the geotags "
+"will be used to set the point's Z value."
+msgstr ""
+"La couche de points contiendra une seule entité PointZ par fichier d'entrée "
+"à partir de laquelle les balises géographiques pourraient être lues. Toutes "
+"les informations d'altitude des géotags seront utilisées pour définir la "
+"valeur Z du point."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:564
+msgid ""
+"Besides longitude and latitude also altitude, direction and timestamp "
+"information, if present in the photo, will be added to the point as "
+"attributes."
+msgstr ""
+"Outre la longitude et la latitude, les informations d'altitude, de direction"
+" et d'horodatage, si elles sont présentes sur la photo, seront ajoutées au "
+"point en tant qu'attributs."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:579
+msgid "**Input folder**"
+msgstr "**Dossier d'entrée**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:580
+msgid "``FOLDER``"
+msgstr "``FOLDER``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:581
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:715
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:746
+msgid "[folder]"
+msgstr "[folder]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:582
+msgid "Path to the source folder containing the geotagged photos"
+msgstr "Chemin d'accès au dossier source contenant les photos géolocalisées"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:583
+msgid "**Scan recursively**"
+msgstr "**Scanner récursivement**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:584
+msgid "``RECURSIVE``"
+msgstr "``RECURSIVE``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:585
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1245
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1251
+msgid "[boolean]"
+msgstr "[boolean]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:587
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1247
+msgid "Default: False"
+msgstr "Par défaut : Faux"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:588
+msgid "If checked, the folder and its subfolders will be scanned"
+msgstr "Si coché, le dossier et ses sous-dossiers seront analysés"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:589
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:633
+msgid "**Photos**"
+msgstr "**Photos**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:594
+msgid "Specify the point vector layer for the geotagged photos. One of:"
+msgstr ""
+"Spécifiez la couche vecteur de points pour les photos géomarquées. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:603
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:639
+msgid "**Invalid photos table**"
+msgstr "**Table de photos non valide**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:606
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:642
+msgid "``INVALID``"
+msgstr "``INVALID``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:607
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:643
+msgid "[table]"
+msgstr "[table]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:609
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:717
+msgid "Default: ``[Skip output]``"
+msgstr "Par défaut: ``[Skip output]``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:610
+msgid "Specify the table of unreadable or non-geotagged photos. One of:"
+msgstr ""
+"Spécifiez la table des photos illisibles ou non géolocalisées. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:613
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:721
+msgid "Skip Output"
+msgstr "Ignorer la sortie"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:636
+msgid ""
+"Point vector layer with geotagged photos. The form of the layer is "
+"automatically filled with paths and photo previews settings."
+msgstr ""
+"Couche vectorielle ponctuelle avec photos géomarquées. La forme de la couche"
+" est automatiquement remplie de chemins et de paramètres d'aperçu des "
+"photos."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:644
+msgid "Table of unreadable or non-geotagged photos can also be created."
+msgstr ""
+"Une table de photos illisibles ou non géolocalisées peut également être "
+"créé."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:651
+msgid "Points to path"
+msgstr "Points à suivre"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:652
+msgid ""
+"Converts a point layer to a line layer, by joining points in an order "
+"defined by a field in the input point layer (if the order field is a "
+"date/time field, the format must be specified)."
+msgstr ""
+"Convertit une couche de points en une couche de lignes, en joignant les "
+"points dans un ordre défini par un champ dans la couche de points d'entrée "
+"(si le champ d'ordre est un champ date/heure, le format doit être spécifié)."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:656
+msgid "Points can be grouped by a field to distinguish line features."
+msgstr ""
+"Les points peuvent être regroupés par un champ pour distinguer les entités "
+"linéaires."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:658
+msgid ""
+"In addition to the line vector layer, a text file is output that describes "
+"the resulting line as a start point and a sequence of bearings / directions "
+"(relative to azimuth) and distances."
+msgstr ""
+"En plus de la couche vecteur de ligne, un fichier texte est généré qui "
+"décrit la ligne résultante comme un point de départ et une séquence de "
+"relèvements/directions (par rapport à l'azimut) et de distances."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:675
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:773
+msgid "**Input point layer**"
+msgstr "**Couche de points d'entrée**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:678
+msgid "Input point vector layer"
+msgstr "Couche vecteur point en entrée"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:679
+msgid "**Order field**"
+msgstr "**Champ ordre**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:680
+msgid "``ORDER_FIELD``"
+msgstr "``ORDER_FIELD``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:682
+msgid "Field containing the order to connect the points in the path"
+msgstr "Champ contenant l'ordre de connexion des points dans le chemin"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:683
+msgid "**Group field**"
+msgstr "**Champ de groupage**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:686
+msgid "``GROUP_FIELD``"
+msgstr "``GROUP_FIELD``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:688
+msgid ""
+"Point features of the same value in the field will be grouped in the same "
+"line. If not set, a single path is drawn with all the input points."
+msgstr ""
+"Les entités ponctuelles de même valeur dans le champ seront regroupées sur "
+"la même ligne. S'il n'est pas défini, un seul chemin est tracé avec tous les"
+" points d'entrée."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:692
+msgid "**Date format (if order field is DateTime)**"
+msgstr "**Format de date (si le champ de commande est DateTime)**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:695
+msgid "``DATE_FORMAT``"
+msgstr "``DATE_FORMAT``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:696
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1089
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1158
+msgid "[string]"
+msgstr "[string]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:697
+msgid ""
+"The format to use for the ``Order field`` parameter. Specify this only if "
+"the ``Order field`` is of type Date/Time."
+msgstr ""
+"Le format à utiliser pour le paramètre ``Champ ordre``. Ne le spécifiez que "
+"si le ``Champ d'ordre`` est de type Date/Heure"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:700
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:740
+msgid "**Paths**"
+msgstr "**Chemins**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:705
+msgid "Specify the line vector layer of the path. One of:"
+msgstr "Spécifiez la couche vecteur de ligne du chemin. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:713
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:744
+msgid "**Directory for text output**"
+msgstr "**Répertoire pour la sortie texte**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:714
+msgid "``OUTPUT_TEXT_DIR``"
+msgstr "``OUTPUT_TEXT_DIR``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:718
+msgid ""
+"Specify the directory that will contain the description files of points and "
+"paths. One of:"
+msgstr ""
+"Spécifiez le répertoire qui contiendra les fichiers de description des "
+"points et des chemins. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:722
+msgid "Save to a Temporary Directory"
+msgstr "Save to a Temporary Directory"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:723
+msgid "Save to Directory..."
+msgstr "Save to Directory..."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:743
+msgid "Line vector layer of the path"
+msgstr "Couche vecteur de ligne du chemin"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:747
+msgid "Directory containing description files of points and paths"
+msgstr ""
+"Répertoire contenant les fichiers de description des points et des chemins"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:753
+msgid "Random points along line"
+msgstr "Points aléatoires le long de la ligne"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:754
+msgid ""
+"Creates a new point layer, with points placed in the lines of another layer."
+msgstr ""
+"Crée une nouvelle couche points, avec des points placés dans les lignes "
+"d'une autre couche."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:756
+msgid ""
+"For each line in the input layer, a given number of points is added to the "
+"resulting layer."
+msgstr ""
+"Pour chaque ligne de la couche en entrée, un nombre donné de points est "
+"ajouté à  la couche résultante."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:759
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:828
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:905
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:982
+msgid ""
+"A minimum distance can be specified, to avoid points being too close to each"
+" other."
+msgstr ""
+"Une distance minimale peut être spécifiée pour éviter que les points ne "
+"soient trop proches les uns des autres."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:777
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:848
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:926
+msgid "**Number of points**"
+msgstr "**Nombre de  points**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:778
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:849
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:927
+msgid "``POINTS_NUMBER``"
+msgstr "``POINTS_NUMBER``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:781
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:852
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:930
+msgid "Default: 1"
+msgstr "Par défaut : 1"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:782
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:931
+msgid "Number of points to create"
+msgstr "Nombre de points à créer"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:783
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:854
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:932
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1019
+msgid "**Minimum distance between points**"
+msgstr "**Distance minimale entre les points**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:784
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:855
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:933
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1020
+msgid "``MIN_DISTANCE``"
+msgstr "``MIN_DISTANCE``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:788
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:859
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:937
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1024
+msgid "The minimum distance between points"
+msgstr "La distance minimale entre les points"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:789
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:815
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:866
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:892
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:938
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:964
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1025
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1051
+msgid "**Random points**"
+msgstr "**Points aléatoires**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:794
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:871
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:943
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1030
+msgid "The output random points. One of:"
+msgstr "Les points aléatoires de sortie. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:818
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:895
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:967
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1054
+msgid "The output random points layer."
+msgstr "Couche de points aléatoires en sortie."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:824
+msgid "Random points in extent"
+msgstr "Points aléatoires dans l'étendue"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:825
+msgid ""
+"Creates a new point layer with a given number of random points, all of them "
+"within a given extent."
+msgstr ""
+"Crée une nouvelle couche de points avec un nombre donné de points "
+"aléatoires, tous dans une étendue donnée."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:844
+msgid "**Input extent**"
+msgstr "**Étendue en entrée**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:847
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1228
+msgid "Map extent for the random points"
+msgstr "Étendue de la carte pour les points aléatoires"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:853
+msgid "Number of point to create"
+msgstr "Nombre de points à créer"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:865
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1260
+msgid "CRS of the random points layer"
+msgstr "SCR de la couche de points aléatoires"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:901
+msgid "Random points in layer bounds"
+msgstr "Points aléatoires dans les limites de la couche"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:902
+msgid ""
+"Creates a new point layer with a given number of random points, all of them "
+"within the extent of a given layer."
+msgstr ""
+"Crée une nouvelle couche de points avec un nombre donné de points "
+"aléatoires, tous dans l'étendue d'une couche donnée."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:925
+msgid "Input polygon layer defining the area"
+msgstr "Couche de polygone d'entrée définissant la zone"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:973
+msgid "Random points inside polygons"
+msgstr "Points aléatoires à l'intérieur des polygones"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:974
+msgid ""
+"Creates a new point layer with a given number of random points inside each "
+"polygon of the input polygon layer."
+msgstr ""
+"Crée une nouvelle couche de points avec un nombre donné de points aléatoires"
+" à l'intérieur de chaque polygone de la couche de polygones en entrée."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:977
+msgid "Two sampling strategies are available:"
+msgstr "Deux stratégies d'échantillonnage sont disponibles:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:979
+msgid "Points count: number of points for each feature"
+msgstr "Nombre de points: nombre de points pour chaque entite"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:980
+msgid "Points density: density of points for each feature"
+msgstr "Densité de points: densité de points pour chaque entité"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1002
+msgid "**Sampling strategy**"
+msgstr "**Stratégie d'échantillonnage**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1003
+msgid "``STRATEGY``"
+msgstr "``STRATEGY``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1007
+msgid "Sampling strategy to use. One of:"
+msgstr "Stratégie d'échantillonnage à utiliser. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1009
+msgid "0 --- Points count: number of points for each feature"
+msgstr "0 --- Nombre de points: nombre de points pour chaque entite"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1010
+msgid "1 --- Points density: density of points for each feature"
+msgstr "1 --- Densité de points: densité de points pour chaque entité"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1012
+msgid "**Point count or density**"
+msgstr "**Nombre de points ou densité**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1013
+msgid "``VALUE``"
+msgstr "``VALUE``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1017
+msgid ""
+"The number or density of points, depending on the chosen :guilabel:`Sampling"
+" strategy`."
+msgstr ""
+"Le nombre ou la densité de points, selon le choix :guilabel:`Stratégie "
+"d'échantillonnage`."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1060
+msgid "Raster pixels to points"
+msgstr "Pixels raster en points"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1061
+msgid ""
+"Creates a vector layer of points corresponding to each pixel in a raster "
+"layer."
+msgstr ""
+"Crée une couche vectorielle de points correspondant à chaque pixel d'une "
+"couche raster."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1063
+msgid ""
+"Converts a raster layer to a vector layer, by creating point features for "
+"each individual pixel's center in the raster layer. Any nodata pixels are "
+"skipped in the output."
+msgstr ""
+"Convertit une couche raster en couche vecteur, en créant des entités "
+"ponctuelles pour le centre de chaque pixel individuel dans la couche raster."
+" Tous les pixels nodata sont ignorés dans la sortie."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1083
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1152
+msgid "**Band number**"
+msgstr "**Numéro de bande**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1084
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1153
+msgid "``RASTER_BAND``"
+msgstr "``RASTER_BAND``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1085
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1154
+msgid "[raster band]"
+msgstr "[raster band]"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1086
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1155
+msgid "Raster band to extract data from"
+msgstr "Bande raster pour extraire des données de"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1087
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1156
+msgid "**Field name**"
+msgstr "**Nom du champ**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1088
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1157
+msgid "``FIELD_NAME``"
+msgstr "``FIELD_NAME``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1091
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1160
+msgid "Default: 'VALUE'"
+msgstr "Default: 'VALUE'"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1092
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1161
+msgid "Name of the field to store the raster band value"
+msgstr "Nom du champ pour stocker la valeur de la bande raster"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1093
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1120
+msgid "**Vector points**"
+msgstr "**Points vecteur**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1098
+msgid "Specify the resulting point layer of pixels centroids. One of:"
+msgstr ""
+"Spécifiez la couche de points résultante des pixels centroïdes. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1123
+msgid "Resulting point layer with pixels centroids"
+msgstr "Couche de points résultante avec pixels centroïdes"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1129
+msgid "Raster pixels to polygons"
+msgstr "Raster pixellisés en polygones"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1130
+msgid ""
+"Creates a vector layer of polygons corresponding to each pixel in a raster "
+"layer."
+msgstr ""
+"Crée une couche vectorielle de polygones correspondant à chaque pixel d'une "
+"couche raster."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1132
+msgid ""
+"Converts a raster layer to a vector layer, by creating polygon features for "
+"each individual pixel's extent in the raster layer. Any nodata pixels are "
+"skipped in the output."
+msgstr ""
+"Convertit une couche raster en couche vecteur, en créant des entités "
+"surfaciques pour l'étendue de chaque pixel individuel dans la couche raster."
+" Tous les pixels nodata sont ignorés dans la sortie."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1162
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1189
+msgid "**Vector polygons**"
+msgstr "**Polygones vectoriels**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1167
+msgid "Specify the resulting polygon layer of pixel extents. One of:"
+msgstr ""
+"Spécifiez la couche de polygones résultante d'étendues de pixels. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1192
+msgid "Resulting polygon layer of pixel extents"
+msgstr "Couche de polygones résultante d'étendues de pixels"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1198
+msgid "Regular points"
+msgstr "Points réguliers"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1199
+msgid ""
+"Creates a new point layer with its points placed in a regular grid within a "
+"given extent."
+msgstr ""
+"Crée une nouvelle couche de points avec ses points placés dans une grille "
+"régulière dans une étendue donnée."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1202
+msgid ""
+"The grid is specified either by the spacing between the points (same spacing"
+" for all dimensions) or by the number of points to generate. In the latter "
+"case, the spacing will be determined from the extent. In order to generate a"
+" full rectangular grid, at least the number of points specified by the user "
+"is generated for the latter case."
+msgstr ""
+"La grille est spécifiée soit par l'espacement entre les points (même "
+"espacement pour toutes les dimensions) soit par le nombre de points à "
+"générer. Dans ce dernier cas, l'espacement sera déterminé à partir de "
+"l'étendue. Afin de générer une grille rectangulaire complète, au moins le "
+"nombre de points spécifié par l'utilisateur est généré pour ce dernier cas."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1208
+msgid ""
+"Random offsets to the point spacing can be applied, resulting in a non-"
+"regular point pattern."
+msgstr ""
+"Des décalages aléatoires de l'espacement des points peuvent être appliqués, "
+"résultant en un motif de points non régulier."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1225
+msgid "**Input extent (xmin, xmax, ymin, ymax)**"
+msgstr "**Étendue d'entrée (xmin, xmax, ymin, ymax)**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1229
+msgid "**Point spacing/count**"
+msgstr "**Espacement / comptage des points**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1230
+msgid "``SPACING``"
+msgstr "``SPACING``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1233
+msgid "Default: 100"
+msgstr "Par défaut : 100"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1234
+msgid ""
+"Spacing between the points, or the number of points, depending on whether "
+"``Use point spacing`` is checked or not."
+msgstr ""
+"Espacement entre les points, ou le nombre de points, selon que ``Utiliser "
+"l'espacement des points`` est coché ou non."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1236
+msgid "**Initial inset from corner (LH side)**"
+msgstr "**Encart initial du coin (côté gauche)**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1237
+msgid "``INSET``"
+msgstr "``INSET``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1241
+msgid ""
+"Offsets the points relative to the upper left corner. The value is used for "
+"both the X and Y axis."
+msgstr ""
+"Décale les points par rapport au coin supérieur gauche. La valeur est "
+"utilisée pour les axes X et Y."
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1243
+msgid "**Apply random offset to point spacing**"
+msgstr "**Appliquer un décalage aléatoire à l'espacement des points**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1244
+msgid "``RANDOMIZE``"
+msgstr "``RANDOMIZE``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1248
+msgid "If checked the points will have a random spacing"
+msgstr "Si coché, les points auront un espacement aléatoire"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1249
+msgid "**Use point spacing**"
+msgstr "**Utiliser l'espacement des points**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1250
+msgid "``IS_SPACING``"
+msgstr "``IS_SPACING``"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1253
+msgid "Default: True"
+msgstr "Par défaut : Vrai"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1254
+msgid "If unchecked the point spacing is not taken into account"
+msgstr ""
+"Si cette case n'est pas cochée, l'espacement des points n'est pas pris en "
+"compte"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1255
+msgid "**Output layer CRS**"
+msgstr "**SCR de la couche en sortie**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1261
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1287
+msgid "**Regular points**"
+msgstr "**Points réguliers**"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1266
+msgid "Specify the output regular point layer. One of:"
+msgstr "Spécifiez la couche de points régulier de sortie. Un des:"
+
+#: ../../docs/user_manual/processing_algs/qgis/vectorcreation.rst:1290
+msgid "The output regular point layer."
+msgstr "Couche de points régulier en sortie."
